@@ -12,19 +12,19 @@ body {
 
 h1 {
   font-size: 200%;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 3px;
   font-weight: 400; }
 header {
   background: #3F51B5;
   color: #FFFFFF;
-  padding: 150px 0; }
-  header p {
-    font-family: 'Allura';
-    color: rgba(255, 255, 255, 0.2);
-    margin-bottom: 0;
-    font-size: 60px;
-    margin-top: -30px; }
+  padding: 40px 0; }
+header p {
+  font-family: 'Arial';
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 0;
+  font-size: 30px;
+  margin-top: -10px; }
 
 .timeline {
   position: relative; }
