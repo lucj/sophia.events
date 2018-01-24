@@ -1,6 +1,8 @@
-## The rational
+## Purpose
 
 Setup a simple web site acting as a hub listing the incoming events in Sophia-Antipolis.
+
+## The rational
 
 A lot of great stuff is happening in Sophia:
 
@@ -12,9 +14,9 @@ A lot of great stuff is happening in Sophia:
 - events from [RivieraJug](http://rivierajug.org)
 - ...
 
-As it's not easy to follow all the sources, some people asks about a hub to list them all...
+... but it's not always easy to follow all the sources.
 
-Here is the attempt to answer this need.
+Some people ask about a place that lists them all...  here is a simple attempt that tries to answer this need.
 
 ## Status
 
@@ -26,9 +28,8 @@ Early hyper manual version, a lot of stuff needs to be done
 - [ ] Add tab listing past events
 - [ ] modify css to have more items on the same page
 - [ ] automate deployment of Docker image
+- [ ] have fun on this side project :)
 
 ## Credit
 
 The first version is based on the vertical [timeline](http://codepen.io/savalazic/pen/QKwERN) created by Sava Lazic
-
- 
