@@ -1,6 +1,6 @@
 ## Purpose
 
-Setup a simple web site acting as a hub listing the incoming events in Sophia-Antipolis.
+Setup a simple web site, with an easy to remember URL: [http://sophia.events](http://sophia.events), and acting as a hub which lists the incoming technical events in Sophia-Antipolis.
 
 ## The rational
 
