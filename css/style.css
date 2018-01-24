@@ -182,4 +182,8 @@ img {
   margin-top: 10px; }
 
 .timeline-img-header {
-  background: #3F51B5; }
+  background: #3F51B5;
+  padding-top: 40px; }
+  .timeline-img-header img {
+    margin-bottom: 20px;
+    max-height: 50%; }
