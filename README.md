@@ -23,7 +23,8 @@ Some people ask about a place that lists them all...  here is a simple attempt t
 Early hyper manual version, a lot of stuff needs to be done
 
 - [ ] make a clean and appealing header
-- [ ] use template to build index
+- [x] define events.json file describing all the events
+- [ ] use simple Mustache templating to build index.html
 - [ ] create a backend to automatically fetch events form list of sources
 - [ ] Add tab listing past events
 - [ ] modify css to have more items on the same page
