@@ -71,6 +71,7 @@ UI is then available on port 8000
 Early hyper manual version, a lot of stuff needs to be done
 
 - [ ] make a clean and appealing header
+- [ ] display event logo in the corner opposite to the date
 - [x] define events.json file describing all the events
 - [x] use simple Mustache templating to build index.html
 - [ ] create a backend to automatically fetch events form list of sources
