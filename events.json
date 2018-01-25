@@ -15,7 +15,7 @@
       "link": "https://www.meetup.com/fr-FR/Sophia-Antipolis-HashiCorp-User-Group/events/246742297/"
     },
     {
-      "type": "telecomvalley-cos",
+      "type": "telecomvalley",
       "title": "Commission Open Source",
       "date": "25/01/2018",
       "desc": "Retour d'expérience sur l'utilisation de <b>Kafka</b> par <b>Sébastien Alegret</b> de GreenCom Network",
@@ -30,20 +30,20 @@
     },
     {
       "type": "rivierajug",
-      "title": "Riviera Jug",
+      "title": "",
       "date": "06/02/2018",
       "desc": "Présentation de la base de données <b>Hazelcast</b> par <b>Neil Stevenson</b>",
       "link": "http://rivierajug.org/xwiki/bin/view/Main/201802-hazelcast"
     },
     {
-      "type": "telecomvalley-cos",
+      "type": "telecomvalley",
       "title": "Commission Open Source",
       "date": "20/02/2018",
       "desc": "Présentation de <b>Open Source Business Diagnostic</b> par <b>Jaime Arredondo</b> (BoldAndOpen.com)",
       "link": ""
     },
     {
-      "type": "telecomvalley-cos",
+      "type": "telecomvalley",
       "title": "Commission Open Source",
       "date": "15/03/2018",
       "desc": "Introduction à la programmation fonctionnelle par <b>Yann Esposito</b>. Attention, <b>Haskell</b> au programme...",
