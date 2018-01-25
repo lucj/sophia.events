@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html >
+<html>
 <head>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113065209-1"></script>
   <script>
@@ -9,7 +9,7 @@
     gtag('config', 'UA-113065209-1');
   </script>
   <meta charset="UTF-8">
-  <title>Vertical Timeline</title>
+  <title>TechEvents@Sophia</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:100i,300,400,500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
   <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
@@ -30,13 +30,10 @@
       {{#events}}
 
       <div class="timeline-item">
-        <div class="timeline-img"></div>
-        <div class="timeline-content timeline-card">
-        <div class="timeline-img-header">
+        <div class="timeline-content">
+          <img src="./images/{{ pict }}" width="60%"/>
           <h2>{{{ title }}}</h2>
-          <img src="./images/{{ pict }}"/>
-        </div>
-        <div class="date">{{{ date }}}</div>
+          <div class="date">{{{ date }}}</div>
           <p>{{{ desc }}}</p>
           <a class="bnt-more" href="{{{ link }}}">More</a>
         </div>

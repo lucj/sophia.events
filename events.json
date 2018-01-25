@@ -34,7 +34,6 @@
     },
     {
       "type": "rivierajug",
-      "title": "",
       "date": "06/02/2018",
       "desc": "Présentation de la base de données <b>Hazelcast</b> par <b>Neil Stevenson</b>",
       "link": "http://rivierajug.org/xwiki/bin/view/Main/201802-hazelcast",
