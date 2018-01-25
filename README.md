@@ -34,6 +34,24 @@ Add events in events.json file.
 
 Note: event closest in time should be the first item of the list
 
+### Build the index
+
+```
+$ mustache events.json index.mustache > index.html
+```
+
+### Run local server
+
+```
+$ python -m SimpleHTTPServer 8080
+```
+
+UI is then available on port 8000
+
+And tweak the html/css/js stuff :)
+
+## Docker image
+
 ### Create the image
 
 ```
@@ -59,6 +77,8 @@ Early hyper manual version, a lot of stuff needs to be done
 - [ ] Add tab listing past events
 - [ ] modify css to have more items on the same page
 - [ ] automate deployment of Docker image
+- [ ] Expose RSS feed
+- [ ] Add TLS
 - [ ] have fun on this side project :)
 
 ## Credit

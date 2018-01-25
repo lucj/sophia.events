@@ -5,49 +5,64 @@
       "title": "Meetup Docker / RivieraJug",
       "date": "18/01/2018",
       "desc": "Anthony Lapenna</b> viendra nous présenter <b>Portainer</b> pour gérez vos environnements Docker en toute simplicité</p>",
-      "link": "https://www.meetup.com/fr-FR/Docker-Nice/events/245650434/"
+      "link": "https://www.meetup.com/fr-FR/Docker-Nice/events/245650434/",
+      "pict": "docker.png"
     },
     {
       "type": "hashicorp-meetup",
       "title": "Hashicorp User Group #2",
       "date": "23/01/2018",
       "desc": "Thomas Sarboni</b> fera une introduction à <b>Terraform</b>, <b>David Calvert</b> nous présentera <b>Vault</b>",
-      "link": "https://www.meetup.com/fr-FR/Sophia-Antipolis-HashiCorp-User-Group/events/246742297/"
+      "link": "https://www.meetup.com/fr-FR/Sophia-Antipolis-HashiCorp-User-Group/events/246742297/",
+      "pict": "hashicorp.png"
     },
     {
       "type": "telecomvalley",
       "title": "Commission Open Source",
       "date": "25/01/2018",
       "desc": "Retour d'expérience sur l'utilisation de <b>Kafka</b> par <b>Sébastien Alegret</b> de GreenCom Network",
-      "link": "http://telecom-valley.fr/25-janvier-commission-open-source/"
+      "link": "http://telecom-valley.fr/25-janvier-commission-open-source/",
+      "pict": "telecomvalley.png"
     },
     {
       "type": "cncf-meetup",
       "title": "CNCF Sophia-Antipolis #1",
       "date": "29/01/2018",
       "desc": "Cédric Lamorinière</b> et <b>David Benque</b> vous présenterons <b>Prometheus</b> une solution de monitoring pour le système et les applications",
-      "link": "https://www.meetup.com/fr-FR/CNCF-Cloud-Native-Computing-Sophia-Antipolis/events/246424155/"
+      "link": "https://www.meetup.com/fr-FR/CNCF-Cloud-Native-Computing-Sophia-Antipolis/events/246424155/",
+      "pict": "cncf.png"
     },
     {
       "type": "rivierajug",
       "title": "",
       "date": "06/02/2018",
       "desc": "Présentation de la base de données <b>Hazelcast</b> par <b>Neil Stevenson</b>",
-      "link": "http://rivierajug.org/xwiki/bin/view/Main/201802-hazelcast"
+      "link": "http://rivierajug.org/xwiki/bin/view/Main/201802-hazelcast",
+      "pict": "rivierajug.png"
     },
     {
       "type": "telecomvalley",
       "title": "Commission Open Source",
       "date": "20/02/2018",
       "desc": "Présentation de <b>Open Source Business Diagnostic</b> par <b>Jaime Arredondo</b> (BoldAndOpen.com)",
-      "link": ""
+      "link": "",
+      "pict": "telecomvalley.png" 
     },
     {
       "type": "telecomvalley",
       "title": "Commission Open Source",
       "date": "15/03/2018",
       "desc": "Introduction à la programmation fonctionnelle par <b>Yann Esposito</b>. Attention, <b>Haskell</b> au programme...",
-      "link": ""
+      "link": "",
+      "pict": "telecomvalley.png"
+    },
+    {
+      "type": "rivieradev",
+      "title": "",
+      "date": "16-17-18/05/2018",
+      "desc": "<b>Riviera DEV</b> c'est <b>3 jours de conférences et d'ateliers</b> sur un large panel de sujets : langages de programmation, Front-end & UX, Mobile & IoT, Big Data & Machine Learning, Containers & DevOps, Performance, Agilité ...",
+      "link": "http://rivieradev.fr",
+      "pict": "rivieradev.jpg"
     }
   ]
 }

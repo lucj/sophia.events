@@ -112,6 +112,7 @@ a {
   .timeline-card a {
     margin-left: 20px; }
 
+/*
 .timeline-item:nth-child(2) .timeline-img-header {
   background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("https://hd.unsplash.com/photo-1458530970867-aaa3700e966d") center center no-repeat;
   background-size: cover; }
@@ -130,6 +131,7 @@ a {
 .timeline-item:nth-child(11) .timeline-img-header {
   background: linear-gradient(transparent, rgba(0, 0, 0, 0.4)), url("https://hd.unsplash.com/photo-1469429978400-082eec725ad5") center center no-repeat;
   background-size: cover; }
+*/
 
 .timeline-img-header {
   height: 200px;
