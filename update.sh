@@ -7,7 +7,7 @@ if [ "$version" = "" ]; then
 fi
 
 # Pull new image
-docker pull
+docker pull lucj/sophia.events:$version
 
 # Stop previous container
 docker stop events
