@@ -62,6 +62,14 @@
       "desc": "<b>Riviera DEV</b> c'est <b>3 jours de conférences et d'ateliers</b> sur un large panel de sujets : langages de programmation, Front-end & UX, Mobile & IoT, Big Data & Machine Learning, Containers & DevOps, Performance, Agilité ...",
       "link": "http://rivieradev.fr",
       "pict": "rivieradev.jpg"
+    },
+    {
+      "type": "sophiaconf",
+      "title": "",
+      "date": "2-5/07/2018",
+      "desc": "3 soirées de talks et une journée entièrement dédiée à des workshops techniques. Au programme cette année: AI, DevOps et Cloud, IoT. Les CFPs sont ouverts !",
+      "link": "http://telecom-valley.fr/sophiaconf-2018-appel-a-orateurs/",
+      "pict": "sophiaconf2018.png"
     }
   ]
 }
