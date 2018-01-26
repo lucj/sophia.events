@@ -52,7 +52,7 @@ header p {
 
 .timeline-item {
   width: 100%;
-  margin-bottom: 20px; }
+  margin-bottom: 0px; }
   .timeline-item:nth-child(even) .timeline-content {
     float: right; }
     .timeline-item:nth-child(even) .timeline-content .date {
