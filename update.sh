@@ -2,8 +2,7 @@
 
 version=$1
 if [ "$version" = "" ]; then
-  echo "version must be provided"
-  exit 1
+  version="latest"
 fi
 
 # Pull new image
