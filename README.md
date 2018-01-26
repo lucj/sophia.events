@@ -34,21 +34,17 @@ Add events in events.json file.
 
 Note: event closest in time should be the first item of the list
 
-### Build the index
+### Test
+
+The following command generate the _index.html_ file and run a local server
 
 ```
-$ mustache events.json index.mustache > index.html
-```
-
-### Run local server
-
-```
-$ python -m SimpleHTTPServer 8080
+./test.sh
 ```
 
 UI is then available on port 8000
 
-And tweak the html/css/js stuff :)
+You can now tweak the html/css/js stuff :)
 
 ## Docker image
 
