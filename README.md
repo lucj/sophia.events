@@ -18,61 +18,24 @@ A lot of great stuff is happening in Sophia:
 
 Some people ask about a place that lists them all...  here is a simple attempt that tries to answer this need.
 
-## Development
-
-If you want to participate in the dev and make this thing looks better:
-
-### Get the repo
-
-```
-$ git clone https://github.com/lucj/sophia.events.git
-```
-
-### Manage events
-
-Add events in events.json file.
-
-Note: event closest in time should be the first item of the list
-
-### Test
-
-The following command generate the _index.html_ file and run a local server
-
-```
-./test.sh
-```
-
-UI is then available on port 8000
-
-You can now tweak the html/css/js stuff :)
-
-## Docker image
-
-### Create the image
-
-```
-$ docker build -t sophia.event .
-```
-
-### Run the image
-
-```
-$ docker run -p 8000:80 -d sophia.event
-```
-
-UI is then available on port 8000
-
 ## Status
 
 Early hyper manual version, a lot of stuff needs to be done
 
+*ONGOING*
+
+- setup front / api / db stack
+- modify front so it retrieves events from the api
+
+*TODO*
+
 - [ ] make a clean and appealing header
-- [ ] display event logo in the corner opposite to the date
+- [x] display event logo in the corner opposite to the date
 - [x] define events.json file describing all the events
 - [x] use simple Mustache templating to build index.html
 - [ ] create a backend to automatically fetch events form list of sources
 - [ ] Add tab listing past events
-- [ ] modify css to have more items on the same page
+- [x] modify css to have more items on the same page
 - [ ] automate deployment of Docker image
 - [ ] Expose RSS feed
 - [ ] Add TLS
