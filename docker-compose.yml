@@ -10,5 +10,3 @@ services:
      - 8081:3000
    db:
      image: mongo:3.6
-     ports:
-     - 27017:27017
