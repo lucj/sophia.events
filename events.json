@@ -18,11 +18,11 @@
     },
     {
       "type": "telecomvalley",
-      "title": "Commission Open Source",
+      "title": "",
       "date": "25/01/2018",
       "desc": "Retour d'expérience sur l'utilisation de <b>Kafka</b> par <b>Sébastien Alegret</b> de GreenCom Network",
       "link": "http://telecom-valley.fr/25-janvier-commission-open-source/",
-      "pict": "telecomvalley.png"
+      "pict": "telecomvalley-cos.png"
     },
     {
       "type": "cncf-meetup",
@@ -41,19 +41,19 @@
     },
     {
       "type": "telecomvalley",
-      "title": "Commission Open Source",
+      "title": "",
       "date": "20/02/2018",
       "desc": "Présentation de <b>Open Source Business Diagnostic</b> par <b>Jaime Arredondo</b> (BoldAndOpen.com)",
       "link": "",
-      "pict": "telecomvalley.png" 
+      "pict": "telecomvalley-cos.png" 
     },
     {
       "type": "telecomvalley",
-      "title": "Commission Open Source",
+      "title": "",
       "date": "15/03/2018",
       "desc": "Introduction à la programmation fonctionnelle par <b>Yann Esposito</b>. Attention, <b>Haskell</b> au programme...",
       "link": "",
-      "pict": "telecomvalley.png"
+      "pict": "telecomvalley-cos.png"
     },
     {
       "type": "rivieradev",
@@ -61,7 +61,7 @@
       "date": "16-17-18/05/2018",
       "desc": "<b>Riviera DEV</b> c'est <b>3 jours de conférences et d'ateliers</b> sur un large panel de sujets : langages de programmation, Front-end & UX, Mobile & IoT, Big Data & Machine Learning, Containers & DevOps, Performance, Agilité ...",
       "link": "http://rivieradev.fr",
-      "pict": "rivieradev.jpg"
+      "pict": "rivieradev.png"
     },
     {
       "type": "sophiaconf",
