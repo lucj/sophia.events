@@ -27,6 +27,7 @@ exposedbydefault = false
 
 # Let's Encrypt configuration
 [acme]
+email = "admin@sophia.events"
 storageFile = "acme.json"
 entryPoint = "https"
   [acme.httpChallenge]
