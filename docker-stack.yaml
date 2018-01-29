@@ -13,6 +13,13 @@ services:
    www:
      image: lucj/sophia.events
      deploy:
+       labels:
+       - "traefik.enable=true"
+       - "traefik.frontend.rule=Host:sophia.events"
+       - "traefik.frontend.entryPoints=http,https"
+       - "traefik.port=80"
+       - "traefik.web.frontend.rule=Host:sophia.events"
+       - "traefik.web.port=80"
        restart_policy:
          condition: on-failure
 configs:

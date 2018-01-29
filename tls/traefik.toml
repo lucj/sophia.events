@@ -33,3 +33,4 @@ entryPoint = "https"
     entryPoint = "http"
 [[acme.domains]]
    main = "sophia.events"
+   san = ["www.sophia.events"]
