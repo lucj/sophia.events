@@ -5,8 +5,16 @@ services:
      configs:
      - source: traefik
        target: /etc/traefik/traefik.toml
+     volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+     deploy:
+       restart_policy:
+         condition: on-failure
    www:
      image: lucj/sophia.events
+     deploy:
+       restart_policy:
+         condition: on-failure
 configs:
   traefik:
     file: ./tls/traefik.toml
