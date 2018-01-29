@@ -3,7 +3,7 @@ debug = true
 logLevel = "DEBUG"
 
 # Web configuration backend
-[web]
+[api]
 address = ":8080"
 
 # Entrypoints

@@ -56,6 +56,14 @@
       "pict": "telecomvalley-cos.png"
     },
     {
+      "type": "telecomvalley",
+      "title": "",
+      "date": "12/04/2018",
+      "desc": "<b>Rémy Coutable</b> de GitLab viendra nous présenter <b>Gitlab-CI</b>",
+      "link": "",
+      "pict": "telecomvalley-cos.png"
+    },
+    {
       "type": "rivieradev",
       "title": "",
       "date": "16-17-18/05/2018",

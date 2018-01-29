@@ -39,7 +39,12 @@
           <h2>{{{ title }}}</h2>
           <div class="date">{{{ date }}}</div>
           <p>{{{ desc }}}</p>
-          <a class="bnt-more" href="{{{ link }}}">More</a>
+          {{#link}}
+            <a class="bnt-more" href="{{{ link }}}">More</a>
+          {{/link}}
+          {{^link}}
+            <a class="bnt-more" href="javascript:void(0);">A venir...</a>
+          {{/link}}
         </div>
       </div>   
 
