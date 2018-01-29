@@ -1,0 +1,12 @@
+version: '3.4'
+services:
+   proxy:
+     image: traefik:1.5.0
+     configs:
+     - source: traefik
+       target: /etc/traefik/traefik.toml
+   www:
+     image: lucj/sophia.events
+configs:
+  traefik:
+    file: ./tls/traefik.toml
