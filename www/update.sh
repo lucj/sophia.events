@@ -5,8 +5,8 @@ if [ "$version" = "" ]; then
   version="latest"
 fi
 
-#TODO
-docker service update www --image=...
+#TODO: update service instead of single container
+# docker service update www --image=...
 
 # Pull new image
 docker pull lucj/sophia.events:$version
