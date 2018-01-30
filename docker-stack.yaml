@@ -1,7 +1,7 @@
 version: '3.4'
 services:
   proxy:
-    image: traefik:1.5.0
+    image: traefik:1.5.1
     configs:
     - source: traefik
       target: /etc/traefik/traefik.toml
@@ -13,8 +13,6 @@ services:
     - 8080:8080
     deploy:
       replicas: 1
-      labels:
-      - "traefik.enable=true"
       placement:
         constraints: [node.role == manager]
       restart_policy:
@@ -23,9 +21,11 @@ services:
     image: lucj/sophia.events
     deploy:
       labels:
-      - "traefik.enable=true"
-      - "traefik.frontend.rule=Host:sophia.events"
       - "traefik.port=80"
+      - "traefik.frontend.rule=Host:sophia.events"
+      - "traefik.frontend.headers.SSLRedirect=true"
+      - "traefik.frontend.entryPoints=http,https"
+      - "traefik.backend=www"
       restart_policy:
         condition: on-failure
 configs:

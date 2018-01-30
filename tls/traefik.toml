@@ -31,7 +31,7 @@ email = "admin@sophia.events"
 storageFile = "acme.json"
 entryPoint = "https"
   [acme.httpChallenge]
-    entryPoint = "http"
+  entryPoint = "http"
 [[acme.domains]]
-   main = "sophia.events"
-   san = ["www.sophia.events"]
+  main = "sophia.events"
+  san = ["www.sophia.events"]
