@@ -55,12 +55,36 @@
       "pict": "telecomvalley-cos.png" 
     },
     {
+      "type": "dmca",
+      "title": "Développement Mobile Côte-d'Azur",
+      "date": "21/02/2018 à 18h30",
+      "desc": "#21: Reactive programming",
+      "link": "https://www.meetup.com/fr-FR/Developpement-Mobile-Android-iOS-Cote-d-Azur/events/gszvcpyxdbcc/",
+      "pict": ""
+    },
+    {
+      "type": "google-developer-group",
+      "title": "Google Hash Code 2018",
+      "date": "01/03/2018 à 18h",
+      "desc": "Comme tous les ans, Google organise le Hash Code, une compétition de programmation en équipe pour résoudre un problème d’ingénierie de la vie réelle de Google",
+      "link": "https://www.meetup.com/fr-FR/GDGNice/events/245187635/",
+      "pict": "google.png"
+    },
+    {
       "type": "telecomvalley",
       "title": "",
       "date": "15/03/2018 à 12h",
       "desc": "Introduction à la programmation fonctionnelle par <b>Yann Esposito</b>. Attention, <b>Haskell</b> au programme...",
       "link": "",
       "pict": "telecomvalley-cos.png"
+    },
+    {
+      "type": "dmca",
+      "title": "Développement Mobile Côte-d'Azur",
+      "date": "28/03/2018 à 18h30",
+      "desc": "#22",
+      "link": "",
+      "pict": ""
     },
     {
       "type": "telecomvalley",

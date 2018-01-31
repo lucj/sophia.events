@@ -25,7 +25,6 @@ services:
       - "traefik.frontend.rule=Host:sophia.events"
       - "traefik.frontend.headers.SSLRedirect=true"
       - "traefik.frontend.entryPoints=http,https"
-      - "traefik.backend=www"
       restart_policy:
         condition: on-failure
 configs:
