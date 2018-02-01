@@ -1,2 +1,3 @@
-www/index.html
-api/node_modules
+www/*.html
+www/*_events.json
+www/node_modules
