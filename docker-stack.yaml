@@ -23,7 +23,6 @@ services:
       labels:
       - "traefik.port=80"
       - "traefik.frontend.rule=Host:sophia.events"
-      - "traefik.frontend.headers.SSLRedirect=true"
       - "traefik.frontend.entryPoints=http,https"
       restart_policy:
         condition: on-failure

@@ -1,3 +1,6 @@
+# Entrypoints
+defaultEntryPoints = ["http", "https"]
+
 # Global configuration
 debug = true
 logLevel = "DEBUG"
@@ -6,8 +9,6 @@ logLevel = "DEBUG"
 [api]
 address = ":8080"
 
-# Entrypoints
-defaultEntryPoints = ["http", "https"]
 [entryPoints]
   [entryPoints.http]
   address = ":80"
