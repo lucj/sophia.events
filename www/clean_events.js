@@ -29,10 +29,10 @@ events.events.forEach(function(event){
 });
 
 // Sort upcoming events in date ascending order
-var upcoming = { "events" : lo.orderBy(upcoming_events, ["id"], ["asc"]) };
+var upcoming = { "events" : lo.orderBy(upcoming_events, ["ts"], ["asc"]) };
 
 // Sort past events reverse in date descending order
-var past = { "events" : lo.orderBy(past_events, ["id"], ["desc"]) };
+var past = { "events" : lo.orderBy(past_events, ["ts"], ["desc"]) };
 
 // Persist list in corresponding files
 fs.writeFileSync('upcoming_events.json', JSON.stringify(upcoming));
