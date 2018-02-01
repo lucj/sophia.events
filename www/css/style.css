@@ -20,15 +20,11 @@ h2 {
   font-size: 25px;
 }
 
-menu {
-  background: #3f51b5;
-  margin: 0;
-}
-
 header {
   background: #3f51b5;
   color: #ffffff;
   padding: 10px 0;
+  padding-top: 30px;
 }
 
 header p {
@@ -170,3 +166,30 @@ blockquote {
     left: -15px;
     border-width: 10px 15px 10px 0;
     border-color: transparent #f5f5f5 transparent transparent; } }
+
+/* Handle horizontal menu */
+
+menu {
+  background: #3f51b5;
+  margin: 0;
+}
+
+ul#nav {
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul#nav li {
+  display: inline;
+}
+
+ul#nav li a {
+  float: left;
+  line-height: 40px;
+  color: #fff;
+  text-decoration: none;
+  margin: 0;
+  padding: 0 30px;
+}
