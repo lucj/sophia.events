@@ -1,6 +1,7 @@
 {
   "events": [
     { 
+      "id" : 1,
       "type": "docker-meetup",
       "title": "Meetup Docker / RivieraJug",
       "ts": "20180118T180000",
@@ -10,6 +11,8 @@
       "pict": "docker.png"
     },
     {
+      "id" : 2,
+      "type": "docker-meetup",
       "type": "hashicorp-meetup",
       "title": "Hashicorp User Group #2",
       "ts": "20180123T180000",
@@ -19,6 +22,7 @@
       "pict": "hashicorp.png"
     },
     {
+      "id" : 3,
       "type": "telecomvalley",
       "title": "",
       "ts": "20180125T120000",
@@ -28,6 +32,7 @@
       "pict": "telecomvalley-cos.png"
     },
     {
+      "id" : 4,
       "type": "cncf-meetup",
       "title": "CNCF Sophia-Antipolis #1",
       "ts": "20180129T173000",
@@ -37,6 +42,7 @@
       "pict": "cncf.png"
     },
     {
+      "id" : 5,
       "type": "telecomvalley",
       "ts": "20180206T120000",
       "date": "06/02 à 12h",
@@ -45,6 +51,7 @@
       "pict": "telecomvalley-csc.png"
     },
     {
+      "id" : 6,
       "type": "rivierajug",
       "ts": "20180206T180000",
       "date": "06/02 à 18h",
@@ -53,6 +60,7 @@
       "pict": "rivierajug.png"
     },
     {
+      "id" : 7,
       "type": "telecomvalley",
       "ts": "20180220T120000",
       "title": "",
@@ -62,6 +70,7 @@
       "pict": "telecomvalley-cos.png" 
     },
     {
+      "id" : 8,
       "type": "dmca",
       "title": "Développement Mobile Côte-d'Azur",
       "ts": "20180221T183000",
@@ -71,6 +80,7 @@
       "pict": ""
     },
     {
+      "id" : 9,
       "type": "google-developer-group",
       "title": "Google Hash Code 2018",
       "ts": "20180301T180000",
@@ -80,6 +90,7 @@
       "pict": "google.png"
     },
     {
+      "id" : 10,
       "type": "telecomvalley",
       "title": "",
       "ts": "20180315T120000",
@@ -89,6 +100,7 @@
       "pict": "telecomvalley-cos.png"
     },
     {
+      "id" : 11,
       "type": "dmca",
       "title": "Développement Mobile Côte-d'Azur",
       "ts": "20180328T183000",
@@ -98,6 +110,7 @@
       "pict": ""
     },
     {
+      "id" : 12,
       "type": "telecomvalley",
       "title": "",
       "ts": "20180412T120000",
@@ -107,6 +120,7 @@
       "pict": "telecomvalley-cos.png"
     },
     {
+      "id" : 13,
       "type": "rivieradev",
       "title": "",
       "ts": "20180516T080000",
@@ -116,6 +130,7 @@
       "pict": "rivieradev.png"
     },
     {
+      "id" : 14,
       "type": "sophiaconf",
       "title": "",
       "ts": "20180702T180000",
