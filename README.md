@@ -32,7 +32,7 @@ $ git clone https://github.com/lucj/sophia.events.git
 $ cd www && ./test.sh
 ```
 
-A web server is run locally, the timeline is available on port 8000
+A web server is run in a Docker container. The port to use is provided at the end of the output.
 
 ## Status
 
