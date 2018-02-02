@@ -9,7 +9,6 @@ services:
     - /var/run/docker.sock:/var/run/docker.sock:ro
     ports:
     - 80:80
-    - 443:443
     - 8080:8080
     deploy:
       replicas: 1
@@ -21,11 +20,15 @@ services:
     image: lucj/sophia.events
     deploy:
       labels:
+      - "traefik.enable=true"
       - "traefik.port=80"
       - "traefik.frontend.rule=Host:sophia.events"
-      - "traefik.frontend.entryPoints=http,https"
+      - "traefik.frontend.entryPoints=http"
+      - "traefik.frontend.headers.browserXSSFilter=true"
+      - "traefik.frontend.headers.frameDeny=false"
+      - "traefik.frontend.headers.contentTypeNosniff=true" 
       restart_policy:
         condition: on-failure
 configs:
   traefik:
-    file: ./tls/traefik.toml
+    file: ./proxy/http.toml
