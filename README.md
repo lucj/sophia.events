@@ -18,21 +18,31 @@ A lot of great stuff is happening in Sophia:
 
 Some people ask about a place that lists them all...  here is a simple attempt that tries to answer this need.
 
-## How to run it
+## Want to help making this website look better ? :)
+
+Fell free to modify it and to submit a PR.
 
 ### Clone de repository
 
 ```
-$ git clone https://github.com/lucj/sophia.events.git
+$ git clone https://github.com/lucj/sophia.events.git && cd sophia.events
 ```
 
-### Run the wrapper scrip
+### Run stack
+
+This assumes you have [Docker](https://www.docker.com/community-edition#/download) / [Docker Compose](https://docs.docker.com/compose/install/) installed on your machine 
 
 ```
-$ cd www && ./test.sh
+$ docker-compose up -d
 ```
 
-A web server is run in a Docker container. The port to use is provided at the end of the output.
+A web server is run in a Docker container available on port 8000.
+
+### Modify the files
+
+Fell free to modify the css / html.
+
+Once you'r happy with your changes you can report the modifications of the html in the *template/index.mustache* file.
 
 ## Status
 

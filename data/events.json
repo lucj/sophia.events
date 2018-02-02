@@ -34,12 +34,12 @@
     {
       "id" : 4,
       "type": "cncf-meetup",
-      "title": "CNCF Sophia-Antipolis #1",
+      "title": "",
       "ts": "20180129T173000",
       "date": "29/01 à 17h30",
       "desc": "Cédric Lamorinière</b> et <b>David Benque</b> vous présenterons <b>Prometheus</b> une solution de monitoring pour le système et les applications",
       "link": "https://www.meetup.com/fr-FR/CNCF-Cloud-Native-Computing-Sophia-Antipolis/events/246424155/",
-      "pict": "cncf.png"
+      "pict": "cncf-sophia.png"
     },
     {
       "id" : 5,

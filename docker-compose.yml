@@ -1,0 +1,10 @@
+version: '3.4'
+services:
+  www:
+    image: lucj/sophia.events
+    build: ./www
+    ports:
+    - 8000:80
+    restart: on-failure
+    volumes:
+    - ./www:/usr/share/nginx/html
