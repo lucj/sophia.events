@@ -9,4 +9,4 @@ fi
 docker pull lucj/sophia.events:$version
 
 # Update www service with the newly retrieved image
-docker service update www --image=lucj/sophia.events:$version
+docker service update sophia_www --image=lucj/sophia.events:$version
