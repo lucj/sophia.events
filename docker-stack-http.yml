@@ -25,7 +25,7 @@ services:
       - "traefik.frontend.rule=Host:sophia.events"
       - "traefik.frontend.entryPoints=http"
       - "traefik.frontend.headers.browserXSSFilter=true"
-      - "traefik.frontend.headers.frameDeny=false"
+      - "traefik.frontend.headers.frameDeny=true"
       - "traefik.frontend.headers.contentTypeNosniff=true" 
       restart_policy:
         condition: on-failure

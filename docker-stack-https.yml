@@ -20,6 +20,7 @@ services:
     image: lucj/sophia.events
     deploy:
       labels:
+      - "traefik.enable=true"
       - "traefik.port=80"
       - "traefik.frontend.rule=Host:sophia.events"
       - "traefik.frontend.entryPoints=http,https"
