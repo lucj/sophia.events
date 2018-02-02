@@ -1,0 +1,40 @@
+version: '3.4'
+services:
+  proxy:
+    image: nginx:1.12.2
+    configs:
+      - source: server_config
+        target: /etc/nginx/nginx.conf
+        mode: 0444
+        uid: '33'
+        gid: '33'
+      - source: server_cert
+        target: /etc/ssl/certs/server.crt
+        mode: 0444
+        uid: '33'
+        gid: '33'
+    secrets:
+      - source: server_key
+        target: /etc/ssl/certs/server.key
+        mode: 0400
+        uid: '33'
+        gid: '33'
+    ports:
+      - "80:80"
+      - "443:443"
+    deploy:
+      restart_policy:
+        condition: on-failure
+  www:
+    image: lucj/sophia.events
+    deploy:
+      restart_policy:
+        condition: on-failure
+configs:
+  server_config:
+    file: ./conf/nginx.conf
+  server_cert:
+    file: ./certs/sophia-cert-bundle.pem
+secrets:
+  server_key:
+    file: ./certs/sophia-key.pem
