@@ -52,12 +52,11 @@ Once you'r happy with your changes you can report the modifications of the html 
 - [x] display event logo in the corner opposite to the date
 - [x] define events.json file describing all the events
 - [x] use simple Mustache templating to build index.html
-- [ ] Add tab listing past events
+- [x] Add tab listing past events
 - [x] modify css to have more items on the same page
 - [ ] Expose RSS feed
-- [ ] Add TLS
+- [x] Add TLS
 - [ ] create a backend to automatically fetch events form list of sources
-- [ ] have fun on this side project :)
 
 ## Credit
 
