@@ -77,7 +77,7 @@
       "date": "21/02 à 18h30",
       "desc": "#21: Reactive programming",
       "link": "https://www.meetup.com/fr-FR/Developpement-Mobile-Android-iOS-Cote-d-Azur/events/gszvcpyxdbcc/",
-      "pict": ""
+      "pict": "meetup.png"
     },
     {
       "id" : 9,
@@ -107,7 +107,7 @@
       "date": "28/03 à 18h30",
       "desc": "#22",
       "link": "",
-      "pict": ""
+      "pict": "meetup.png"
     },
     {
       "id" : 12,
@@ -138,6 +138,16 @@
       "desc": "3 soirées de talks et une journée entièrement dédiée à des workshops techniques. Au programme cette année: AI, DevOps et Cloud, IoT. Les CFPs sont ouverts !",
       "link": "http://telecom-valley.fr/sophiaconf-2018-appel-a-orateurs/",
       "pict": "sophiaconf2018.png"
+    },
+    {
+      "id" : 15,
+      "type": "ibm-meetup",
+      "title": "",
+      "ts": "20180209T140000",
+      "date": "Le 09/02 de 14h à 16h",
+      "desc": "Découvrez le Garage IBM Cloud et les concepts UX à Nice Meridia au CEEI",
+      "link": "https://www.meetup.com/fr-FR/IBM-Bluemix-Nice-Meetup/events/247317977",
+      "pict": "meetup.png"
     }
   ]
 }
