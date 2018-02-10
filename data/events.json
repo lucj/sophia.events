@@ -66,7 +66,7 @@
       "title": "",
       "date": "20/02 à 12h",
       "desc": "Présentation de <b>Open Source Business Diagnostic</b> par <b>Jaime Arredondo</b> (BoldAndOpen.com)",
-      "link": "",
+      "link": "http://telecom-valley.fr/20-fevrier-commission-open-source/",
       "pict": "telecomvalley-cos.png" 
     },
     {
@@ -148,6 +148,17 @@
       "desc": "Découvrez le Garage IBM Cloud et les concepts UX à Nice Meridia au CEEI",
       "link": "https://www.meetup.com/fr-FR/IBM-Bluemix-Nice-Meetup/events/247317977",
       "pict": "meetup.png"
+    },
+    {
+      "id" : 16,
+      "type": "telecomvalley",
+      "title": "Soirée blockchain",
+      "ts": "20180215T180000",
+      "date": "15/02 à 18h",
+      "desc": "Parce que les blockchains sont au coeur de l’actualité et suscitent beaucoup de curiosité, la communauté Open Source vous propose une double soirée TechEvent dédiée à ce thème.",
+      "link": "http://telecom-valley.fr/15-fevrier-tech-conf-blockchain/",
+      "pict": "telecomvalley-cos.png"
     }
+    
   ]
 }
