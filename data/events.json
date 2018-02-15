@@ -24,7 +24,7 @@
     {
       "id" : 3,
       "type": "telecomvalley",
-      "title": "",
+      "title": "Kafka par GreenCom Network",
       "ts": "20180125T120000",
       "date": "25 janvier à 12h",
       "desc": "Retour d'expérience sur l'utilisation de <b>Kafka</b> par <b>Sébastien Alegret</b> de GreenCom Network",
@@ -34,7 +34,7 @@
     {
       "id" : 4,
       "type": "cncf-meetup",
-      "title": "",
+      "title": "Sophia CNCF #1",
       "ts": "20180129T173000",
       "date": "29 janvier à 17h30",
       "desc": "Cédric Lamorinière</b> et <b>David Benque</b> vous présenterons <b>Prometheus</b> une solution de monitoring pour le système et les applications",
@@ -44,18 +44,20 @@
     {
       "id" : 5,
       "type": "telecomvalley",
+      "title": "Sécurité des applications cloud native",
       "ts": "20180206T120000",
       "date": "06 février à 12h",
       "desc": "Cloud, virtualisation, microservices, conteneurs… quelles sont les bonnes pratiques de sécurité ? par <b>Serge HARTMANN</b> de <b>ACP Qualife</b>",
-      "link": "http://telecom-valley.fr/6-fevrier-commission-securite-cloud",
+      "link": "http://www.telecom-valley.fr/6-fevrier-2018-commission-securite-cloud/",
       "pict": "telecomvalley-csc.png"
     },
     {
       "id" : 6,
       "type": "rivierajug",
+      "title": "Présentation de Hazelcast",
       "ts": "20180206T180000",
       "date": "06 février à 18h",
-      "desc": "Présentation de la base de données <b>Hazelcast</b> par <b>Neil Stevenson</b>",
+      "desc": "<b>Neil Stevenson</b> présentera la base de données <b>Hazelcast</b>",
       "link": "http://rivierajug.org/xwiki/bin/view/Main/201802-hazelcast",
       "pict": "rivierajug.png"
     },
@@ -63,7 +65,7 @@
       "id" : 7,
       "type": "telecomvalley",
       "ts": "20180220T120000",
-      "title": "",
+      "title": "Gestion d'un projet open source",
       "date": "20 février à 12h",
       "desc": "Présentation de <b>Open Source Business Diagnostic</b> par <b>Jaime Arredondo</b> (BoldAndOpen.com)",
       "link": "http://telecom-valley.fr/20-fevrier-commission-open-source/",
@@ -92,7 +94,7 @@
     {
       "id" : 10,
       "type": "telecomvalley",
-      "title": "",
+      "title": "Programmation fonctionnelle",
       "ts": "20180315T120000",
       "date": "15 mars à 12h",
       "desc": "Introduction à la programmation fonctionnelle par <b>Yann Esposito</b>. Attention, <b>Haskell</b> au programme...",
@@ -112,7 +114,7 @@
     {
       "id" : 12,
       "type": "telecomvalley",
-      "title": "",
+      "title": "Intégration continue avec GitLab-CI",
       "ts": "20180412T120000",
       "date": "12 avril à 12h",
       "desc": "<b>Rémy Coutable</b> de GitLab viendra nous présenter <b>Gitlab-CI</b>",
@@ -122,7 +124,7 @@
     {
       "id" : 13,
       "type": "rivieradev",
-      "title": "",
+      "title": "RivieraDev édition 2018",
       "ts": "20180516T080000",
       "date": "Du 16 au 18 mai",
       "desc": "<b>Riviera DEV</b> c'est <b>3 jours de conférences et d'ateliers</b> sur un large panel de sujets : langages de programmation, Front-end & UX, Mobile & IoT, Big Data & Machine Learning, Containers & DevOps, Performance, Agilité ...",
@@ -132,7 +134,7 @@
     {
       "id" : 14,
       "type": "sophiaconf",
-      "title": "",
+      "title": "SophiaConf édition 2018",
       "ts": "20180702T180000",
       "date": "Du 2 au 5 juillet",
       "desc": "3 soirées de talks et une journée entièrement dédiée à des workshops techniques. Au programme cette année: AI, DevOps et Cloud, IoT. Les CFPs sont ouverts !",
@@ -142,7 +144,7 @@
     {
       "id" : 15,
       "type": "ibm-meetup",
-      "title": "",
+      "title": "Garage IBM Cloud",
       "ts": "20180209T140000",
       "date": "09 février de 14h à 16h",
       "desc": "Découvrez le Garage IBM Cloud et les concepts UX à Nice Meridia au CEEI",
@@ -156,7 +158,7 @@
       "ts": "20180215T180000",
       "date": "15 février à 18h",
       "desc": "Parce que les blockchains sont au coeur de l’actualité et suscitent beaucoup de curiosité, la communauté Open Source vous propose une double soirée TechEvent dédiée à ce thème.",
-      "link": "http://telecom-valley.fr/15-fevrier-tech-conf-blockchain/",
+      "link": "http://www.telecom-valley.fr/15-fevrier-2018-tech-conf-blockchain/",
       "pict": "telecomvalley-cos.png"
     },
     {
