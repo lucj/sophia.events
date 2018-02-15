@@ -48,7 +48,9 @@ Once you'r happy with your changes you can report the modifications of the html 
 
 *TODO*
 
+- [ ] make the whole thing look better
 - [ ] make a clean and appealing header
+- [ ] add a contact form
 - [x] display event logo in the corner opposite to the date
 - [x] define events.json file describing all the events
 - [x] use simple Mustache templating to build index.html
