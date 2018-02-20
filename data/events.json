@@ -77,7 +77,7 @@
       "title": "Développement Mobile Côte-d'Azur",
       "ts": "20180221T183000",
       "date": "21 février à 18h30",
-      "desc": "#21: Reactive programming",
+      "desc": "Au programme du #21: <b>Adopter la programmation réactive</b> par <b>Florent Pillet</b>, présentation de <b>Marvel App</b> par <b>Gregory Biondo</b>",
       "link": "https://www.meetup.com/fr-FR/Developpement-Mobile-Android-iOS-Cote-d-Azur/events/gszvcpyxdbcc/",
       "pict": "meetup.png"
     },
@@ -138,7 +138,7 @@
       "ts": "20180702T180000",
       "date": "Du 2 au 5 juillet",
       "desc": "3 soirées de talks et une journée entièrement dédiée à des workshops techniques. Au programme cette année: AI, DevOps et Cloud, IoT. Les CFPs sont ouverts !",
-      "link": "http://telecom-valley.fr/sophiaconf-2018-appel-a-orateurs/",
+      "link": "http://www.telecom-valley.fr/sophiaconf-2018-appel-a-orateurs/",
       "pict": "sophiaconf2018.png"
     },
     {
@@ -170,6 +170,36 @@
       "desc": "<b>Raed Chamman</b> (Softeam) vous permettra d'approfondir et de mettre en application les <b>smart contracts</b> sur <b>Ethereum</b> lors d'une session Workshop",
       "link": "https://www.eventbrite.fr/e/billets-tech-workshop-blockchain-telecom-valley-43165173195",
       "pict": "telecomvalley-cos.png"
+    },
+    {
+      "id": 18,
+      "type": "aws-meetup",
+      "title": "LadiesAInight - workshop Intelligence Artificielle",
+      "ts": "20180514T170000",
+      "date": "14 mai à 17h30",
+      "desc": "<b>WHAT06</b> vous convie à une soirée sur l'<b>AI</b> le 14 mai. Réservé en priorité aux femmes travaillant dans les milieux techniques de la Côte d'Azur, cet évènement sera animé par <b>Julien Simon</b>, Principal Evangelist ML/AI chez Amazon Web Services. Il fera une introduction au <b>Deep Learning</b> sous la forme d'un workshop.",
+      "link": "",
+      "pict": "what06.jpeg"
+    },
+    {
+      "id" : 19,
+      "type": "docker-meetup",
+      "title": "Celebrate the Docker 5th Birthday",
+      "ts": "20180322T173000",
+      "date": "22 mars à 17h30",
+      "desc": "Une nouvelle fois, venez célébrer avec nous l'anniversaire de <b>Docker</b>. Au programme: labs, présentations, gateaux, et du fun... :)",
+      "link": "https://www.meetup.com/fr-FR/Docker-Nice/events/247780841/",
+      "pict": "docker.png"
+    },
+    {
+      "id" : 20,
+      "type": "SophiaEvents",
+      "title": "SophI.A",
+      "ts": "20181107T090000",
+      "date": "du 7 au 9 novembre",
+      "desc": "Sophia accueillera un congrès international sur l’intelligence artificielle",
+      "link": "https://tribuca.net/numerique_29656975-sophia-accueillera-en-fin-d-annee-un-congres-international-sur-l-intelligence-artificielle",
+      "pict": "sophia-antipolis.png"
     }
   ]
 }
