@@ -37,9 +37,12 @@
           {{#pict}}
           <img class="logo" src="./images/{{ pict }}" />
           {{/pict}}
-          {{#location}}
-          <img class="logo-location" src="./images/{{ location }}" />
-          {{/location}}
+          <div class="secondary-info">
+            <div class="date">{{{ date }}}</div>
+            {{#location}}
+            <img class="logo-location" src="./images/{{ location }}" />
+            {{/location}}
+          </div>
 
           <h2>{{{ title }}}</h2>
 
@@ -52,7 +55,6 @@
           {{/link}}
           //-->
 
-          <div class="date">{{{ date }}}</div>
           <p>{{{ desc }}}</p>
 
           {{#link}}
