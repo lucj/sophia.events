@@ -87,6 +87,7 @@
       "title": "Google Hash Code @Epitech Nice",
       "ts": "20180301T180000",
       "date": "1er mars à 18h",
+      "location": "epitech.jpg",
       "desc": "Comme tous les ans, Google organise le Hash Code, une compétition de programmation en équipe pour résoudre un problème d’ingénierie de la vie réelle de Google",
       "link": "https://www.meetup.com/fr-FR/GDGNice/events/245187635/",
       "pict": "google.png"
@@ -207,6 +208,7 @@
       "title": "Google Hashcode @Polytech Nice-Sophia",
       "ts": "20180301T180000",
       "date": "1er mars à 18h",
+      "location": "polytechnicesophia.png",
       "desc": "Hash Code is a team programming competition organized by Google for students and industry professionals across Europe, the Middle East and Africa. You pick your team and programming language, Google picks an engineering problem for you to solve",
       "link": "https://hashcode.withgoogle.com/signup.html",
       "pict": "google.png"
