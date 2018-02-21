@@ -100,6 +100,13 @@ header p {
   height: 44px;
   width: auto; }
 
+.logo-location {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  height: 44px;
+  width: auto; }
+
 .timeline-img {
   width: 20px;
   height: 20px;
@@ -120,11 +127,32 @@ a {
   margin-top: 10px;
   display: inline-block;
   border-radius: 2px;
-  box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.6); }
-  a:hover, a:active, a:focus {
+  box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.6);
+}
+
+a:hover, a:active, a:focus {
     background: #32408f;
     color: #ffffff;
-    text-decoration: none; }
+    text-decoration: none;
+}
+
+a.title {
+  background: none;
+  color: #3f51b5;
+  padding: 0px 0px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  box-shadow: none;
+  text-decoration: underline;
+}
+
+a.title:hover, a.title:active, a.title:focus {
+  background: none;
+  color: #3f51b5;
+  text-decoration: underline;
+}
 
 .timeline-card {
   padding: 0 !important; }
