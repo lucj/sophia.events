@@ -84,9 +84,9 @@
     {
       "id" : 9,
       "type": "google-developer-group",
-      "title": "Google Hash Code 2018",
+      "title": "Google Hash Code @Epitech Nice",
       "ts": "20180301T180000",
-      "date": "01 mars à 18h",
+      "date": "1er mars à 18h",
       "desc": "Comme tous les ans, Google organise le Hash Code, une compétition de programmation en équipe pour résoudre un problème d’ingénierie de la vie réelle de Google",
       "link": "https://www.meetup.com/fr-FR/GDGNice/events/245187635/",
       "pict": "google.png"
@@ -200,6 +200,16 @@
       "desc": "Sophia accueillera un congrès international sur l’intelligence artificielle",
       "link": "https://tribuca.net/numerique_29656975-sophia-accueillera-en-fin-d-annee-un-congres-international-sur-l-intelligence-artificielle",
       "pict": "sophia-antipolis.png"
+    },
+    {
+      "id" : 21,
+      "type": "Code competition challenge",
+      "title": "Google Hashcode @Polytech Nice-Sophia",
+      "ts": "20180301T180000",
+      "date": "1er mars à 18h",
+      "desc": "Hash Code is a team programming competition organized by Google for students and industry professionals across Europe, the Middle East and Africa. You pick your team and programming language, Google picks an engineering problem for you to solve",
+      "link": "https://hashcode.withgoogle.com/signup.html",
+      "pict": "google.png"
     }
   ]
 }
