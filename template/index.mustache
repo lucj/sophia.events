@@ -37,15 +37,33 @@
           {{#pict}}
           <img class="logo" src="./images/{{ pict }}" />
           {{/pict}}
+          <div class="secondary-info">
+            <div class="date">{{{ date }}}</div>
+            {{#location}}
+            <img class="logo-location" src="./images/{{ location }}" />
+            {{/location}}
+          </div>
+
           <h2>{{{ title }}}</h2>
-          <div class="date">{{{ date }}}</div>
+
+          <!--
+          {{#link}}
+            <a class="title" target="_blank" href="{{{ link }}}">{{{ title }}}</a>
+          {{/link}}
+          {{^link}}
+            <h2>{{{ title }}}</h2>
+          {{/link}}
+          //-->
+
           <p>{{{ desc }}}</p>
+
           {{#link}}
             <a class="bnt-more" target="_blank" href="{{{ link }}}">More</a>
           {{/link}}
           {{^link}}
             <a class="bnt-more" href="javascript:void(0);">More info soon...</a>
           {{/link}}
+
         </div>
       </div>   
 
