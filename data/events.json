@@ -213,5 +213,15 @@
       "link": "https://hashcode.withgoogle.com/signup.html",
       "pict": "google.png"
     }
+    {
+      "id" : 22,
+      "type": "clusir-paca",
+      "title": "Espace RSSI par CUSIR côte d'azur",
+      "ts": "20180312T183000",
+      "date": "12 mars à 18h30",
+      "desc": "Le PIA : clé de voûte de votre conformité RGPD, par Edmond Cissé, Uraeus Consult. Exigence de l’article 35 du règlement, l’étude d’impact sur la vie privée (PIA: Privacy Impact Assessment) doit être menée pour tout projet susceptible d’engendrer des risques de sécurité élevés sur la vie privée des personnes. (...)",
+      "link": "http://www.clusir-paca.fr/events/espace-rssi-9/",
+      "pict": "clusir-paca.png"
+    }
   ]
 }
