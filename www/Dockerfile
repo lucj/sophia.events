@@ -8,6 +8,7 @@ RUN mustache past_events.json index.mustache > past.html
 
 FROM nginx:1.12.2
 COPY --from=build /build/*.html /usr/share/nginx/html/
+COPY events.json /usr/share/nginx/html/
 COPY css /usr/share/nginx/html/css
 COPY js /usr/share/nginx/html/js
 COPY images /usr/share/nginx/html/images
