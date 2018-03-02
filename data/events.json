@@ -8,6 +8,7 @@
       "date": "18 janvier à 18h",
       "desc": "Anthony Lapenna</b> viendra nous présenter <b>Portainer</b> pour gérez vos environnements Docker en toute simplicité</p>",
       "link": "https://www.meetup.com/fr-FR/Docker-Nice/events/245650434/",
+      "location": "Business-Pole",
       "pict": "docker.png"
     },
     {
@@ -19,13 +20,14 @@
       "date": "23 janvier à 18h",
       "desc": "Thomas Sarboni</b> fera une introduction à <b>Terraform</b>, <b>David Calvert</b> nous présentera <b>Vault</b>",
       "link": "https://www.meetup.com/fr-FR/Sophia-Antipolis-HashiCorp-User-Group/events/246742297/",
-      "pict": "hashicorp.png"
+      "pict": "hashicorp.png",
+      "location": "Ausy"
     },
     {
       "id" : 3,
       "type": "telecomvalley",
       "title": "Kafka par GreenCom Network",
-      "location": "business-pole.png",
+      "location": "Business-Pole",
       "ts": "20180125T120000",
       "date": "25 janvier à 12h",
       "desc": "Retour d'expérience sur l'utilisation de <b>Kafka</b> par <b>Sébastien Alegret</b> de GreenCom Network",
@@ -40,13 +42,14 @@
       "date": "29 janvier à 17h30",
       "desc": "Cédric Lamorinière</b> et <b>David Benque</b> vous présenterons <b>Prometheus</b> une solution de monitoring pour le système et les applications",
       "link": "https://www.meetup.com/fr-FR/CNCF-Cloud-Native-Computing-Sophia-Antipolis/events/246424155/",
-      "pict": "cncf-sophia.png"
+      "pict": "cncf-sophia.png",
+      "location": "Amadeus"
     },
     {
       "id" : 5,
       "type": "telecomvalley",
       "title": "Sécurité des applications cloud native",
-      "location": "business-pole.png",
+      "location": "Business-Pole",
       "ts": "20180206T120000",
       "date": "06 février à 12h",
       "desc": "Cloud, virtualisation, microservices, conteneurs… quelles sont les bonnes pratiques de sécurité ? par <b>Serge HARTMANN</b> de <b>ACP Qualife</b>",
@@ -61,14 +64,15 @@
       "date": "06 février à 18h",
       "desc": "<b>Neil Stevenson</b> présentera la base de données <b>Hazelcast</b>",
       "link": "http://rivierajug.org/xwiki/bin/view/Main/201802-hazelcast",
-      "pict": "rivierajug.png"
+      "pict": "rivierajug.png",
+      "location": "Inria"
     },
     {
       "id" : 7,
       "type": "telecomvalley",
       "ts": "20180220T120000",
       "title": "Gestion d'un projet open source",
-      "location": "business-pole.png",
+      "location": "Business-Pole",
       "date": "20 février à 12h",
       "desc": "Présentation de <b>Open Source Business Diagnostic</b> par <b>Jaime Arredondo</b> (BoldAndOpen.com)",
       "link": "http://telecom-valley.fr/20-fevrier-commission-open-source/",
@@ -90,7 +94,7 @@
       "title": "Google Hash Code @Epitech Nice",
       "ts": "20180301T180000",
       "date": "1er mars à 18h",
-      "location": "epitech.jpg",
+      "location": "Epitech",
       "desc": "Comme tous les ans, Google organise le Hash Code, une compétition de programmation en équipe pour résoudre un problème d’ingénierie de la vie réelle de Google",
       "link": "https://www.meetup.com/fr-FR/GDGNice/events/245187635/",
       "pict": "google.png"
@@ -99,11 +103,11 @@
       "id" : 10,
       "type": "telecomvalley",
       "title": "Programmation fonctionnelle",
-      "location": "business-pole.png",
+      "location": "Business-Pole",
       "ts": "20180315T120000",
       "date": "15 mars à 12h",
       "desc": "Introduction à la programmation fonctionnelle par <b>Yann Esposito</b>. Attention, <b>Haskell</b> au programme...",
-      "link": "",
+      "link": "http://www.telecom-valley.fr/15-mars-2018-commission-open-source/",
       "pict": "telecomvalley-cos.png"
     },
     {
@@ -120,7 +124,7 @@
       "id" : 12,
       "type": "telecomvalley",
       "title": "Intégration continue avec GitLab-CI",
-      "location": "business-pole.png",
+      "location": "Business-Pole",
       "ts": "20180412T120000",
       "date": "12 avril à 12h",
       "desc": "<b>Rémy Coutable</b> de GitLab viendra nous présenter <b>Gitlab-CI</b>",
@@ -145,7 +149,8 @@
       "date": "Du 2 au 5 juillet",
       "desc": "3 soirées de talks et une journée entièrement dédiée à des workshops techniques. Au programme cette année: AI, DevOps et Cloud, IoT. Les CFPs sont ouverts !",
       "link": "http://www.telecom-valley.fr/sophiaconf-2018-appel-a-orateurs/",
-      "pict": "sophiaconf2018.png"
+      "pict": "sophiaconf2018.png",
+      "location": "Polytech"
     },
     {
       "id" : 15,
@@ -165,7 +170,8 @@
       "date": "15 février à 18h",
       "desc": "Parce que les blockchains sont au coeur de l’actualité et suscitent beaucoup de curiosité, la communauté Open Source vous propose une double soirée TechEvent dédiée à ce thème.",
       "link": "http://www.telecom-valley.fr/15-fevrier-2018-tech-conf-blockchain/",
-      "pict": "telecomvalley-cos.png"
+      "pict": "telecomvalley-cos.png",
+      "location": "Polytech"
     },
     {
       "id": 17,
@@ -175,7 +181,8 @@
       "date": "21 février à 17h30",
       "desc": "<b>Raed Chamman</b> (Softeam) vous permettra d'approfondir et de mettre en application les <b>smart contracts</b> sur <b>Ethereum</b> lors d'une session Workshop",
       "link": "https://www.eventbrite.fr/e/billets-tech-workshop-blockchain-telecom-valley-43165173195",
-      "pict": "telecomvalley-cos.png"
+      "pict": "telecomvalley-cos.png",
+      "location": "Polytech"
     },
     {
       "id": 18,
@@ -195,7 +202,8 @@
       "date": "22 mars à 17h30",
       "desc": "Une nouvelle fois, venez célébrer avec nous l'anniversaire de <b>Docker</b>. Au programme: labs, présentations, gateaux, et du fun... :)",
       "link": "https://www.meetup.com/fr-FR/Docker-Nice/events/247780841/",
-      "pict": "docker.png"
+      "pict": "docker.png",
+      "location": "Business-Pole"
     },
     {
       "id" : 20,
@@ -213,15 +221,15 @@
       "title": "Google Hashcode @Polytech Nice-Sophia",
       "ts": "20180301T180000",
       "date": "1er mars à 18h",
-      "location": "polytechnicesophia.png",
+      "location": "Polytech",
       "desc": "Hash Code is a team programming competition organized by Google for students and industry professionals across Europe, the Middle East and Africa. You pick your team and programming language, Google picks an engineering problem for you to solve",
       "link": "https://hashcode.withgoogle.com/signup.html",
       "pict": "google.png"
-    }
+    },
     {
       "id" : 22,
       "type": "clusir-paca",
-      "title": "Espace RSSI par CUSIR côte d'azur",
+      "title": "Espace RSSI par CLUSIR côte d'azur",
       "ts": "20180312T183000",
       "date": "12 mars à 18h30",
       "desc": "Le PIA : clé de voûte de votre conformité RGPD, par Edmond Cissé, Uraeus Consult. Exigence de l’article 35 du règlement, l’étude d’impact sur la vie privée (PIA: Privacy Impact Assessment) doit être menée pour tout projet susceptible d’engendrer des risques de sécurité élevés sur la vie privée des personnes. (...)",
