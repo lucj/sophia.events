@@ -84,7 +84,7 @@
       "title": "Développement Mobile Côte-d'Azur",
       "ts": "20180221T183000",
       "date": "21 février à 18h30",
-      "desc": "Au programme du #21: <b>Adopter la programmation réactive</b> par <b>Florent Pillet</b>, présentation de <b>Marvel App</b> par <b>Gregory Biondo</b>",
+      "desc": "#21: <b>Adopter la programmation réactive</b> par <b>Florent Pillet</b>, présentation de <b>Marvel App</b> par <b>Gregory Biondo</b>",
       "link": "https://www.meetup.com/fr-FR/Developpement-Mobile-Android-iOS-Cote-d-Azur/events/gszvcpyxdbcc/",
       "pict": "meetup.png"
     },
@@ -114,10 +114,10 @@
       "id" : 11,
       "type": "dmca",
       "title": "Développement Mobile Côte-d'Azur",
-      "ts": "20180328T183000",
-      "date": "28 mars à 18h30",
-      "desc": "#22",
-      "link": "",
+      "ts": "20180329T120000",
+      "date": "29 mars à 12h",
+      "desc": "#22 - Présentation de <b>Macha Da Costa</b>: Il y a bientôt un an, Google a officialisé le support du langage <b>Kotlin</b> pour le développement d’application mobile Android, à la G I/O (17-19 mai 2017). Ceci étant, pourquoi Kotlin ? Quels nouveaux concepts apporte ce langage de programmation orientée objet et fonctionnelle ? Quel est l’intérêt d'utiliser ce nouveau langage par rapport au Java ? Quels sont ses limitations et peuvent-elles nuire à son adoption ? Autant de questions auxquelles cette présentation tentera de répondre.",
+      "link": "https://www.meetup.com/fr-FR/Developpement-Mobile-Android-iOS-Cote-d-Azur/events/246061099/",
       "pict": "meetup.png"
     },
     {
@@ -191,8 +191,9 @@
       "ts": "20180514T170000",
       "date": "14 mai à 17h30",
       "desc": "<b>WHAT06</b> vous convie à une soirée sur l'<b>AI</b> le 14 mai. Réservé en priorité aux femmes travaillant dans les milieux techniques de la Côte d'Azur, cet évènement sera animé par <b>Julien Simon</b>, Principal Evangelist ML/AI chez Amazon Web Services. Il fera une introduction au <b>Deep Learning</b> sous la forme d'un workshop.",
-      "link": "",
-      "pict": "what06.jpeg"
+      "link": "http://hackforwomen.com/index.php/ladies-ai-night-nice-2018/",
+      "pict": "what06.jpeg",
+      "location": "DSTI"
     },
     {
       "id" : 19,
