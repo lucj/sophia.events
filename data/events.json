@@ -236,6 +236,17 @@
       "desc": "Le PIA : clé de voûte de votre conformité RGPD, par Edmond Cissé, Uraeus Consult. Exigence de l’article 35 du règlement, l’étude d’impact sur la vie privée (PIA: Privacy Impact Assessment) doit être menée pour tout projet susceptible d’engendrer des risques de sécurité élevés sur la vie privée des personnes. (...)",
       "link": "http://www.clusir-paca.fr/events/espace-rssi-9/",
       "pict": "clusir-paca.png"
+    },
+    {
+      "id" : 23,
+      "type": "rivierajug",
+      "title": "Soirée Kafka",
+      "ts": "20180320T180000",
+      "date": "20 mars à 18h",
+      "desc": "<b>Florent Ramière</b> viendra présenter à quoi sert <b>Kafka</b> et comment l'utiliser",
+      "link": "http://www.rivierajug.org/xwiki/bin/view/Blog/Mardi+20+mars+2018+%40+Sophia-Antipolis++soir%C3%A9e+Kafka",
+      "pict": "rivierajug.png",
+      "location": "Inria"
     }
   ]
 }
