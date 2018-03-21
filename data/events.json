@@ -247,6 +247,17 @@
       "link": "http://www.rivierajug.org/xwiki/bin/view/Blog/Mardi+20+mars+2018+%40+Sophia-Antipolis++soir%C3%A9e+Kafka",
       "pict": "rivierajug.png",
       "location": "Inria"
+    },
+    {
+      "id": 24,
+      "type": "gfi",
+      "title": "Open GFI - Le serverless avec AWS",
+      "ts": "20180406T180000",
+      "date": "6 avril à 18h00",
+      "desc": "Nous accueillerons Rémi Retureau, architecte chez Amazon, pour nous présenter les services Amazon via une démonstration d'une chaîne d'intégration et de déploiement continu. Ce sera l'occasion de parler de \"Serverless\".",
+      "link": "https://www.meetup.com/Open-Gfi/events/248932369/",
+      "pict": "gfi.png",
+      "location": "Golden-Tulip"
     }
   ]
 }
