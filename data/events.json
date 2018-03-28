@@ -123,12 +123,12 @@
     {
       "id" : 12,
       "type": "telecomvalley",
-      "title": "Intégration continue avec GitLab-CI",
+      "title": "Présentation de GitLab par <b>Rémy Coutable</b>",
       "location": "Business-Pole",
       "ts": "20180412T120000",
       "date": "12 avril à 12h",
-      "desc": "<b>Rémy Coutable</b> de GitLab viendra nous présenter <b>Gitlab-CI</b>",
-      "link": "",
+      "desc": "La vérité sur l’affaire GitLab ! Plongez avec moi dans cette mystérieuse affaire GitLab dont on parle tant. Je vous emmènerai dans les coulisses de la machine infernale qui sort une nouvelle version tous les 22 du mois. JIRA, Trello, Travis, GitHub, Docker Hub, oubliez tout ça, GitLab sait tout faire !",
+      "link": "http://www.telecom-valley.fr/12-avril-2018-commission-open-source/",
       "pict": "telecomvalley-cos.png"
     },
     {
@@ -258,6 +258,29 @@
       "link": "https://www.meetup.com/Open-Gfi/events/248932369/",
       "pict": "gfi.png",
       "location": "Golden-Tulip"
-    }
+    },
+    {
+      "id": 25,
+      "type": "GoogleDeveloperGroup",
+      "title": "Cloud Study Jam - Edition Nice",
+      "ts": "20180417T180000",
+      "date": "17 avril à 18h00",
+      "desc": "Venez découvrir la <b>Google Cloud Platform</b> et <b>Docker</b> en participant à notre <b>Cloud Study Jam</b> organisée conjointement par le Docker Nice Meetup et le Google Developer Group Nice qui vous proposent d'y participer à Nice ou à Sophia-Antipolis au choix et en simultané",
+      "link": "https://www.meetup.com/fr-FR/GDGNice/events/248832554/",
+      "pict": "google.png",
+      "location": "Epitech"
+     },
+     {
+      "id": 26,
+      "type": "GoogleDeveloperGroup",
+      "title": "Cloud Study Jam - Edition Sophia-Antipolis",
+      "ts": "20180417T180000",
+      "date": "17 avril à 18h00",
+      "desc": "Venez découvrir la <b>Google Cloud Platform</b> et <b>Docker</b> en participant à notre <b>Cloud Study Jam</b> organisée conjointement par le Docker Nice Meetup et le Google Developer Group Nice qui vous proposent d'y participer à Nice ou à Sophia-Antipolis au choix et en simultané",
+      "link": "https://www.meetup.com/fr-FR/GDGNice/events/248832635/",
+      "pict": "google.png",
+      "location": "Business-Pole"
+     }
+
   ]
 }
