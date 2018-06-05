@@ -280,7 +280,72 @@
       "link": "https://www.meetup.com/fr-FR/GDGNice/events/248832635/",
       "pict": "google.png",
       "location": "Business-Pole"
-     }
-
+     },
+     {
+      "id" : 27,
+      "type": "cncf-meetup",
+      "title": "Sophia CNCF #2",
+      "ts": "20180420T173000",
+      "date": "20 avril à 17h30",
+      "desc": "2 talks by <b>Cédric Lamorinière</b> and <b>David Benque</b>: Kubernetes Extensions + Pod Anomaly Detection",
+      "link": "https://www.meetup.com/CNCF-Cloud-Native-Computing-Sophia-Antipolis/events/249669368/",
+      "pict": "cncf-sophia.png",
+      "location": "Amadeus"
+    },
+    {
+      "id" : 28,
+      "type": "startup-wekend",
+      "title": "Startup Week-End Nice Sophia-Antipolis",
+      "ts": "20180518T183000",
+      "date": "à partir du 18 mai à 18h30",
+      "desc": "Crée la boite de tes rêves en un weekend",
+      "link": "https://www.swnsa.fr/",
+      "pict": "",
+      "location": "Epitech"
+    },
+    {
+      "id" : 29,
+      "type": "docker-meetup",
+      "title": "Meetup Docker - Security",
+      "ts": "20180529T180000",
+      "date": "le 29 mai à 18h00",
+      "desc": "Let's talk about container security with Treeptik and NeuVector",
+      "link": "https://www.meetup.com/fr-FR/Docker-Nice/events/250615089",
+      "location": "Business-Pole",
+      "pict": "docker.png"
+    },
+    {
+      "id" : 30,
+      "type": "GoogleDeveloperGroup",
+      "title": "I/O Extended 2018 Nice",
+      "ts": "20180508T184500",
+      "date": "le 8 mai à 18h45",
+      "desc": "Comme chaque année à cette période de l'année, Google organise la Google I/O, 2 jours de conférence à destination des développeurs organisés à San Francisco...",
+      "link": "https://www.meetup.com/fr-FR/GDGNice/events/248834944",
+      "pict": "google.png",
+      "location": "Epitech"
+    },
+    {
+      "id" : 31,
+      "type": "telecomvalley",
+      "title": "Etude de cas: déploiement continu par <b>Sébastien Dagnicourt</b>",
+      "location": "Business-Pole",
+      "ts": "20180606T120000",
+      "date": "06 juin  à 12h",
+      "desc": "D'un environnement pseudo automatisé vers un déploiement continu avec des outils comme Ansible, Gitlab, Docker, ...",
+      "link": "http://www.telecom-valley.fr/06-juin-2018-commission-open-source/",
+      "pict": "telecomvalley-cos.png"
+    },
+    {
+      "id" : 32,
+      "type": "dmca",
+      "title": "Développement Mobile Côte-d'Azur",
+      "ts": "20180628T183000",
+      "date": "28 juin à 18h30",
+      "desc": "",
+      "link": "",
+      "pict": "meetup.png",
+      "location": "Ausy"
+    }   
   ]
 }
