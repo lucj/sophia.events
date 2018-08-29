@@ -339,13 +339,35 @@
     {
       "id" : 32,
       "type": "dmca",
-      "title": "Développement Mobile Côte-d'Azur",
+      "title": "Développement Mobile Côte-d'Azur & Docker Nice",
       "ts": "20180628T183000",
       "date": "28 juin à 18h30",
-      "desc": "",
-      "link": "",
+      "desc": "Au programme 2 présentations pour vous montrer comment docker peux vous aidez a créer vos applications mobiles: \"Docker, react native et expo par <b>Franck Marin</b>\", \"Jenkins - Docker & Android par <b>Olivier Tosello</b>\"",
+      "link": "https://www.meetup.com/fr-FR/Developpement-Mobile-Android-iOS-Cote-d-Azur/events/248655689/",
       "pict": "meetup.png",
       "location": "Ausy"
-    }   
+    },
+    {
+      "id" : 33,
+      "type": "dmca",
+      "title": "Développement Mobile Côte-d'Azur",
+      "ts": "20180905T183000",
+      "date": "5 septembre à 18h30",
+      "desc": "<b>Olivier TOSELLO</b>, viendra nous parler de AWS et notre appli mobile. <b>Michael Lopez</b> et <b>Stephane Martarello</b>: Dimensionnement d'images à la volée avec AWS Lambda",
+      "link": "https://www.meetup.com/fr-FR/Developpement-Mobile-Android-iOS-Cote-d-Azur/events/253070714/",
+      "pict": "meetup.png",
+      "location": ""
+    },
+    {
+      "id" : 34,
+      "type": "telecomvalley",
+      "title": "Cybersécurrité et PMEs",
+      "location": "Business-Pole",
+      "ts": "20180904T120000",
+      "date": "4 septembre à 12h",
+      "desc": "Cybersécurrité et PMEs, quelles solutions ?",
+      "link": "http://www.telecom-valley.fr/4-septembre-2018-commission-securite-cloud/",
+      "pict": "telecomvalley-csc.png"
+    }
   ]
 }
