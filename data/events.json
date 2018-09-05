@@ -1,7 +1,6 @@
-{
+{ 
   "events": [
     { 
-      "id" : 1,
       "type": "docker-meetup",
       "title": "Meetup Docker / RivieraJug",
       "ts": "20180118T180000",
@@ -12,7 +11,6 @@
       "pict": "docker.png"
     },
     {
-      "id" : 2,
       "type": "docker-meetup",
       "type": "hashicorp-meetup",
       "title": "Hashicorp User Group #2",
@@ -24,7 +22,6 @@
       "location": "Ausy"
     },
     {
-      "id" : 3,
       "type": "telecomvalley",
       "title": "Kafka par GreenCom Network",
       "location": "Business-Pole",
@@ -35,7 +32,6 @@
       "pict": "telecomvalley-cos.png"
     },
     {
-      "id" : 4,
       "type": "cncf-meetup",
       "title": "Sophia CNCF #1",
       "ts": "20180129T173000",
@@ -46,7 +42,6 @@
       "location": "Amadeus"
     },
     {
-      "id" : 5,
       "type": "telecomvalley",
       "title": "Sécurité des applications cloud native",
       "location": "Business-Pole",
@@ -57,7 +52,6 @@
       "pict": "telecomvalley-csc.png"
     },
     {
-      "id" : 6,
       "type": "rivierajug",
       "title": "Présentation de Hazelcast",
       "ts": "20180206T180000",
@@ -68,7 +62,6 @@
       "location": "Inria"
     },
     {
-      "id" : 7,
       "type": "telecomvalley",
       "ts": "20180220T120000",
       "title": "Gestion d'un projet open source",
@@ -79,7 +72,6 @@
       "pict": "telecomvalley-cos.png" 
     },
     {
-      "id" : 8,
       "type": "dmca",
       "title": "Développement Mobile Côte-d'Azur",
       "ts": "20180221T183000",
@@ -89,7 +81,6 @@
       "pict": "meetup.png"
     },
     {
-      "id" : 9,
       "type": "google-developer-group",
       "title": "Google Hash Code @Epitech Nice",
       "ts": "20180301T180000",
@@ -100,7 +91,6 @@
       "pict": "google.png"
     },
     {
-      "id" : 10,
       "type": "telecomvalley",
       "title": "Programmation fonctionnelle",
       "location": "Business-Pole",
@@ -111,7 +101,6 @@
       "pict": "telecomvalley-cos.png"
     },
     {
-      "id" : 11,
       "type": "dmca",
       "title": "Développement Mobile Côte-d'Azur",
       "ts": "20180329T120000",
@@ -121,7 +110,6 @@
       "pict": "meetup.png"
     },
     {
-      "id" : 12,
       "type": "telecomvalley",
       "title": "Présentation de GitLab par <b>Rémy Coutable</b>",
       "location": "Business-Pole",
@@ -132,7 +120,6 @@
       "pict": "telecomvalley-cos.png"
     },
     {
-      "id" : 13,
       "type": "rivieradev",
       "title": "RivieraDev édition 2018",
       "ts": "20180516T080000",
@@ -142,7 +129,6 @@
       "pict": "rivieradev.png"
     },
     {
-      "id" : 14,
       "type": "sophiaconf",
       "title": "SophiaConf édition 2018",
       "ts": "20180702T180000",
@@ -153,7 +139,6 @@
       "location": "Polytech"
     },
     {
-      "id" : 15,
       "type": "ibm-meetup",
       "title": "Garage IBM Cloud",
       "ts": "20180209T140000",
@@ -163,7 +148,6 @@
       "pict": "meetup.png"
     },
     {
-      "id" : 16,
       "type": "telecomvalley",
       "title": "Soirée blockchain",
       "ts": "20180215T180000",
@@ -174,7 +158,6 @@
       "location": "Polytech"
     },
     {
-      "id": 17,
       "type": "telecomvalley",
       "title": "Tech Workshop Blockchain",
       "ts": "20180221T173000",
@@ -185,7 +168,6 @@
       "location": "Polytech"
     },
     {
-      "id": 18,
       "type": "aws-meetup",
       "title": "LadiesAInight - workshop Intelligence Artificielle",
       "ts": "20180514T170000",
@@ -196,7 +178,6 @@
       "location": "DSTI"
     },
     {
-      "id" : 19,
       "type": "docker-meetup",
       "title": "Celebrate the Docker 5th Birthday",
       "ts": "20180322T173000",
@@ -207,7 +188,6 @@
       "location": "Business-Pole"
     },
     {
-      "id" : 20,
       "type": "SophiaEvents",
       "title": "SophI.A",
       "ts": "20181107T090000",
@@ -217,7 +197,6 @@
       "pict": "sophia-antipolis.png"
     },
     {
-      "id" : 21,
       "type": "Code competition challenge",
       "title": "Google Hashcode @Polytech Nice-Sophia",
       "ts": "20180301T180000",
@@ -228,7 +207,6 @@
       "pict": "google.png"
     },
     {
-      "id" : 22,
       "type": "clusir-paca",
       "title": "Espace RSSI par CLUSIR côte d'azur",
       "ts": "20180312T183000",
@@ -238,7 +216,6 @@
       "pict": "clusir-paca.png"
     },
     {
-      "id" : 23,
       "type": "rivierajug",
       "title": "Soirée Kafka",
       "ts": "20180320T180000",
@@ -249,7 +226,6 @@
       "location": "Inria"
     },
     {
-      "id": 24,
       "type": "gfi",
       "title": "Open GFI - Le serverless avec AWS",
       "ts": "20180406T180000",
@@ -260,7 +236,6 @@
       "location": "Golden-Tulip"
     },
     {
-      "id": 25,
       "type": "GoogleDeveloperGroup",
       "title": "Cloud Study Jam - Edition Nice",
       "ts": "20180417T180000",
@@ -271,7 +246,6 @@
       "location": "Epitech"
      },
      {
-      "id": 26,
       "type": "GoogleDeveloperGroup",
       "title": "Cloud Study Jam - Edition Sophia-Antipolis",
       "ts": "20180417T180000",
@@ -282,7 +256,6 @@
       "location": "Business-Pole"
      },
      {
-      "id" : 27,
       "type": "cncf-meetup",
       "title": "Sophia CNCF #2",
       "ts": "20180420T173000",
@@ -293,7 +266,6 @@
       "location": "Amadeus"
     },
     {
-      "id" : 28,
       "type": "startup-wekend",
       "title": "Startup Week-End Nice Sophia-Antipolis",
       "ts": "20180518T183000",
@@ -304,7 +276,6 @@
       "location": "Epitech"
     },
     {
-      "id" : 29,
       "type": "docker-meetup",
       "title": "Meetup Docker - Security",
       "ts": "20180529T180000",
@@ -315,7 +286,6 @@
       "pict": "docker.png"
     },
     {
-      "id" : 30,
       "type": "GoogleDeveloperGroup",
       "title": "I/O Extended 2018 Nice",
       "ts": "20180508T184500",
@@ -326,7 +296,6 @@
       "location": "Epitech"
     },
     {
-      "id" : 31,
       "type": "telecomvalley",
       "title": "Etude de cas: déploiement continu par <b>Sébastien Dagnicourt</b>",
       "location": "Business-Pole",
@@ -337,7 +306,6 @@
       "pict": "telecomvalley-cos.png"
     },
     {
-      "id" : 32,
       "type": "dmca",
       "title": "Développement Mobile Côte-d'Azur & Docker Nice",
       "ts": "20180628T183000",
@@ -348,7 +316,6 @@
       "location": "Ausy"
     },
     {
-      "id" : 33,
       "type": "dmca",
       "title": "Développement Mobile Côte-d'Azur",
       "ts": "20180905T183000",
@@ -359,7 +326,6 @@
       "location": ""
     },
     {
-      "id" : 34,
       "type": "telecomvalley",
       "title": "Cybersécurrité et PMEs",
       "location": "Business-Pole",
@@ -368,6 +334,36 @@
       "desc": "Cybersécurrité et PMEs, quelles solutions ?",
       "link": "http://www.telecom-valley.fr/4-septembre-2018-commission-securite-cloud/",
       "pict": "telecomvalley-csc.png"
+    },
+    {
+      "type": "hashicorp-meetup",
+      "title": "Cas d'usages Terraform et Nomad",
+      "ts": "20180906T183000",
+      "date": "6 septembre à 18h30",
+      "desc": "Présentation de Apache Heron et déploiement avec Nomad par <b>Thomas Sarboni</b>. Terraform en action et cas d'usage concret OpenStack par <b>Romain Di Santo</b>",
+      "link": "https://www.meetup.com/fr-FR/Sophia-Antipolis-HashiCorp-User-Group/events/251397471/",
+      "pict": "hashicorp.png",
+      "location": ""
+    },
+    {
+      "type": "meetup",
+      "title": "Le Go?! On commence par où?",
+      "ts": "20180912T190000",
+      "date": "12 septembre à 19h",
+      "desc": "Le but est de se retrouver entre programmeurs expérimentés mais ne connaissant pas encore le Go.",
+      "link": "https://www.meetup.com/fr-FR/Projet-Decouverte-du-Go/events/qqrcdqyxmbqb/",
+      "pict": "meetup.png"
+    },
+    {
+      "title": "Blockfest 1.5 by WHAT06",
+      "ts": "20180922T090000",
+      "date": "22 septembre à 9h",
+      "desc": "Les collectifs <b>WHAT06</b> & <b>Le BlockFest</b> vous feront découvrir la technologie de la blockchain et comprendre son utilité dans divers domaines d’applications (Santé, ONG, RGPD…).",
+      "link": "https://www.what06.com/",
+      "pict": "what06.png",
+      "orgs": "what06",
+      "sponsors": ["Village By CA", "Orange Labs"],
+      "location": "Village By CA"
     }
   ]
 }
