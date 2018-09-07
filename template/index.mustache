@@ -1,79 +1,60 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en" class="no-js">
 <head>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113065209-1"></script>
-  <script src="js/ga.js"></script>
   <meta charset="UTF-8">
-  <title>TechEvents@Sophia</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:100i,300,400,500,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
-  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
-  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+  <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+  <link rel="stylesheet" href="css/demo.css"> <!-- Resource style -->
+  <title>Sophia Events</title>
 </head>
-
 <body>
-  <menu>
-    <ul id="nav">
-      <li><a href="./index.html">Upcoming events</a></li>
-      <li><a href="./past.html">Past events</a></li>
-      <li><a href="https://github.com/lucj/sophia.events/issues/new" target="_blank">Submit an event (via GitHub)</a></li>
-    </ul> 
-  </menu>
-
   <header>
-    <div class="container text-center">
-      <h1>Technical events in #SophiaAntipolis</h1>
-    </div>
+    <div class="cd-nugget-info">
+      <span>sophia.events</span>
+      <h1>Meetup, TelecomValley, RivieraJug, ...</h1>
+      <h1>les évènements, techniques et autres, de Sophia et des alentours</h1>
+    </div> <!-- cd-nugget-info -->
   </header>
 
-  <section class="timeline">
-    <div class="container">
+  <section class="cd-timeline js-cd-timeline">
+    <div class="cd-timeline__container">
 
       {{#events}}
 
-      <div class="timeline-item">
-        <div class="timeline-img"></div>
-        <div class="timeline-content">
-          {{#pict}}
-          <img class="logo" src="./images/{{ pict }}" />
-          {{/pict}}
-          <div class="secondary-info">
-            <div class="date">{{{ date }}}</div>
-            {{#location}}
-            <img class="logo-location" src="./images/{{ location }}.png" />
-            {{/location}}
-          </div>
+      <div class="cd-timeline__block js-cd-block">
+        <div class="cd-timeline__img cd-timeline__img--location js-cd-img">
+          <img src="img/cd-icon-location.svg">
+        </div> <!-- cd-timeline__img -->
 
+        <div class="cd-timeline__content js-cd-content">
           <h2>{{{ title }}}</h2>
-
-          <!--
+	  <p>{{{ desc }}}</p>
           {{#link}}
-            <a class="title" target="_blank" href="{{{ link }}}">{{{ title }}}</a>
+            <a target="_blank" href="{{{ link }}}" class="cd-timeline__read-more">Détails</a>
           {{/link}}
-          {{^link}}
-            <h2>{{{ title }}}</h2>
-          {{/link}}
-          //-->
-
-          <p>{{{ desc }}}</p>
-
-          {{#link}}
-            <a class="bnt-more" target="_blank" href="{{{ link }}}">More</a>
-          {{/link}}
-          {{^link}}
-            <a class="bnt-more" href="javascript:void(0);">More info soon...</a>
-          {{/link}}
-
-        </div>
-      </div>   
+	  <span class="cd-timeline__date">
+            {{{ date }}}
+          </span>
+          {{#pict}}
+	    <span class="cd-timeline__date">
+              <img class="logo" src="./img/{{ pict }}" />
+            </span>
+          {{/pict}}
+	  <span class="cd-timeline__date">
+          {{#sponsors}}
+              <img class="logo" src="./img/{{name}}.png" />
+          {{/sponsors}}
+          </span>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
 
       {{/events}}
 
     </div>
-  </section>
-  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
-  <script src='https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js'></script>
-  <script src="js/index.js"></script>
-
+  </section> <!-- cd-timeline -->
+	
+  <script src="js/main.js"></script> <!-- Resource JavaScript -->
 </body>
 </html>

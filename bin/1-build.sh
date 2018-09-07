@@ -15,9 +15,8 @@ docker image build -t lucj/sophia.events . || echo_exit "Could not use docker"
 # Run website
 ID="$(docker run -d -p 80 lucj/sophia.events)"
 
-# Copy generated index.html and past.html locally
+# Copy generated index.html
 docker cp "$ID":/usr/share/nginx/html/index.html . || echo_exit "docker cp failed"
-docker cp "$ID":/usr/share/nginx/html/past.html . || echo_exit "docker cp failed"
 
 # Remove files used for image build
 rm index.mustache events.json clean_events.js package.json

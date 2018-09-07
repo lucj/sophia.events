@@ -1,5 +1,67 @@
 { 
   "events": [
+    {
+      "title": "Sophia Security Camp",
+      "ts": "20181009T000000",
+      "date": "9 octobre",
+      "desc": "Participez à une demi-journée de hacking lab et une conférence sur la sécurisation des données de votre entreprise.",
+      "sponsors": [{"name": "tv-csc"}]
+    },
+    {
+      "title": "Linux : discussions sur la limite entre noyau et espace utilisateur",
+      "ts": "20180920T120000",
+      "date": "20 septembre à 12h",
+      "desc": "<b>Hervé Nicol</b> de <b>GFI</b> vous parlera du noyau Linux et développera des exemples avec BPF et FUSE",
+      "sponsors": [{"name": "tv-cos"}]
+    },
+    {
+      "title": "M-Tourism Day 2018",
+      "ts": "20181016T083000",
+      "date": "16 octobre",
+      "desc": "La commission m-Tourisme a le plaisir de vous annoncer la 8ème journée m-Tourisme. Au programme: l'utilisation de l'Intelligence Artificielle pour le tourisme",
+      "link": "http://www.telecom-valley.fr/journee-m-tourisme-2018/",
+      "sponsors": [{"name": "tv"}]
+    },
+    {
+      "title": "Sophia Live Music",
+      "ts": "20180913T173000",
+      "date": "13-14 septembre, Pinède Mercure-Ibis",
+      "desc": "Venez assister à 2 soirées de live, super ambiance garantie !",
+      "link": "http://www.sophialivemusic.com/",
+      "pict": "sophialivemusic.png"
+    },
+    {
+      "title": "Agile Tour 2018",
+      "ts": "20180921T090000",
+      "date": "21 septembre à 9h",
+      "desc": "L'Agile Tour est une série de conférences mondiales dédiées au développement agile. En 2017, c'était 93 dates dont 17 en France. L'étape sophipolitaine organisée par un collectif d’entreprises, d’agilistes et l’association Telecom Valley, va célébrer sa 8ème édition.",
+      "link": "http://at2018.agiletour.org/sophia-antipolis.html",
+      "pict": "tv.png"
+    },
+    {
+      "title": "DevOps D-Day",
+      "ts": "20181115T080000",
+      "date": "15 novembre à 8h à l'Orange Vélodrome (Marseille)",
+      "desc": "Le DEVOPS D-DAY est un événement qui rassemble tous les acteurs du monde de l'IT passionnés par l'écosystème DEVOPS/CLOUD/DOCKER. Vous assisterez à des conférences animées par des speakers de renom.",
+      "link": "http://2018.devops-dday.com/",
+      "pict": "treeptik.png"
+    },
+    {
+      "title": "Nice WordCamp",
+      "ts": "20181019T083000",
+      "date": "19 octobre à 8H30 à l'ISEM (Nice)",
+      "desc": "Un ensemble de conférences dédiées à WordPress",
+      "link": "https://2018.nice.wordcamp.org/"
+    },
+    {
+      "title": "RivieraJug : soirée releases et perfs JVM",
+      "ts": "20180913T180000",
+      "date": "13 septembre à 18h à l'Inria",
+      "desc": "Le Riviera JUG fait sa rentrée sur les chapeaux de roues et organise une rencontre avec Gil Tene, co-fondateur d'Azul Systems et co-créateur de la JVM Zing (entre plein d'autres), en personne !",
+      "link": "http://www.rivierajug.org/xwiki/bin/view/Main/201809-gil-tene",
+      "location": "inria",
+      "pict": "rivierajug.png"
+    },
     { 
       "type": "docker-meetup",
       "title": "Meetup Docker / RivieraJug",
@@ -11,7 +73,6 @@
       "pict": "docker.png"
     },
     {
-      "type": "docker-meetup",
       "type": "hashicorp-meetup",
       "title": "Hashicorp User Group #2",
       "ts": "20180123T180000",
@@ -29,7 +90,7 @@
       "date": "25 janvier à 12h",
       "desc": "Retour d'expérience sur l'utilisation de <b>Kafka</b> par <b>Sébastien Alegret</b> de GreenCom Network",
       "link": "http://telecom-valley.fr/25-janvier-commission-open-source/",
-      "pict": "telecomvalley-cos.png"
+      "pict": "tv-cos.png"
     },
     {
       "type": "cncf-meetup",
@@ -39,7 +100,7 @@
       "desc": "Cédric Lamorinière</b> et <b>David Benque</b> vous présenterons <b>Prometheus</b> une solution de monitoring pour le système et les applications",
       "link": "https://www.meetup.com/fr-FR/CNCF-Cloud-Native-Computing-Sophia-Antipolis/events/246424155/",
       "pict": "cncf-sophia.png",
-      "location": "Amadeus"
+      "location": "amadeus"
     },
     {
       "type": "telecomvalley",
@@ -49,7 +110,7 @@
       "date": "06 février à 12h",
       "desc": "Cloud, virtualisation, microservices, conteneurs… quelles sont les bonnes pratiques de sécurité ? par <b>Serge HARTMANN</b> de <b>ACP Qualife</b>",
       "link": "http://www.telecom-valley.fr/6-fevrier-2018-commission-securite-cloud/",
-      "pict": "telecomvalley-csc.png"
+      "pict": "tv-csc.png"
     },
     {
       "type": "rivierajug",
@@ -59,7 +120,7 @@
       "desc": "<b>Neil Stevenson</b> présentera la base de données <b>Hazelcast</b>",
       "link": "http://rivierajug.org/xwiki/bin/view/Main/201802-hazelcast",
       "pict": "rivierajug.png",
-      "location": "Inria"
+      "location": "inria"
     },
     {
       "type": "telecomvalley",
@@ -69,7 +130,7 @@
       "date": "20 février à 12h",
       "desc": "Présentation de <b>Open Source Business Diagnostic</b> par <b>Jaime Arredondo</b> (BoldAndOpen.com)",
       "link": "http://telecom-valley.fr/20-fevrier-commission-open-source/",
-      "pict": "telecomvalley-cos.png" 
+      "pict": "tv-cos.png" 
     },
     {
       "type": "dmca",
@@ -98,7 +159,7 @@
       "date": "15 mars à 12h",
       "desc": "Introduction à la programmation fonctionnelle par <b>Yann Esposito</b>. Attention, <b>Haskell</b> au programme...",
       "link": "http://www.telecom-valley.fr/15-mars-2018-commission-open-source/",
-      "pict": "telecomvalley-cos.png"
+      "pict": "tv-cos.png"
     },
     {
       "type": "dmca",
@@ -117,7 +178,7 @@
       "date": "12 avril à 12h",
       "desc": "La vérité sur l’affaire GitLab ! Plongez avec moi dans cette mystérieuse affaire GitLab dont on parle tant. Je vous emmènerai dans les coulisses de la machine infernale qui sort une nouvelle version tous les 22 du mois. JIRA, Trello, Travis, GitHub, Docker Hub, oubliez tout ça, GitLab sait tout faire !",
       "link": "http://www.telecom-valley.fr/12-avril-2018-commission-open-source/",
-      "pict": "telecomvalley-cos.png"
+      "pict": "tv-cos.png"
     },
     {
       "type": "rivieradev",
@@ -154,7 +215,7 @@
       "date": "15 février à 18h",
       "desc": "Parce que les blockchains sont au coeur de l’actualité et suscitent beaucoup de curiosité, la communauté Open Source vous propose une double soirée TechEvent dédiée à ce thème.",
       "link": "http://www.telecom-valley.fr/15-fevrier-2018-tech-conf-blockchain/",
-      "pict": "telecomvalley-cos.png",
+      "pict": "tv-cos.png",
       "location": "Polytech"
     },
     {
@@ -164,7 +225,7 @@
       "date": "21 février à 17h30",
       "desc": "<b>Raed Chamman</b> (Softeam) vous permettra d'approfondir et de mettre en application les <b>smart contracts</b> sur <b>Ethereum</b> lors d'une session Workshop",
       "link": "https://www.eventbrite.fr/e/billets-tech-workshop-blockchain-telecom-valley-43165173195",
-      "pict": "telecomvalley-cos.png",
+      "pict": "tv-cos.png",
       "location": "Polytech"
     },
     {
@@ -188,13 +249,12 @@
       "location": "Business-Pole"
     },
     {
-      "type": "SophiaEvents",
       "title": "SophI.A",
       "ts": "20181107T090000",
       "date": "du 7 au 9 novembre",
-      "desc": "Sophia accueillera un congrès international sur l’intelligence artificielle",
-      "link": "https://tribuca.net/numerique_29656975-sophia-accueillera-en-fin-d-annee-un-congres-international-sur-l-intelligence-artificielle",
-      "pict": "sophia-antipolis.png"
+      "desc": "Sophia accueillera un congrès international sur l’intelligence artificielle. Au programme: des sessions scientifiques et techniques, des conférences citoyennes, des master classes, un spectacle, des rendez-vous entreprises.",
+      "link": "http://sophia-summit.fr/",
+      "sponsors": [{"name": "amadeus"}, {"name" : "orange"}, {"name" : "sap"}, {"name" : "inria"}, {"name": "cg06"}, {"name": "accenture"}, {"name":"sophia-antipolis"}]
     },
     {
       "type": "Code competition challenge",
@@ -223,7 +283,7 @@
       "desc": "<b>Florent Ramière</b> viendra présenter à quoi sert <b>Kafka</b> et comment l'utiliser",
       "link": "http://www.rivierajug.org/xwiki/bin/view/Blog/Mardi+20+mars+2018+%40+Sophia-Antipolis++soir%C3%A9e+Kafka",
       "pict": "rivierajug.png",
-      "location": "Inria"
+      "location": "inria"
     },
     {
       "type": "gfi",
@@ -263,7 +323,7 @@
       "desc": "2 talks by <b>Cédric Lamorinière</b> and <b>David Benque</b>: Kubernetes Extensions + Pod Anomaly Detection",
       "link": "https://www.meetup.com/CNCF-Cloud-Native-Computing-Sophia-Antipolis/events/249669368/",
       "pict": "cncf-sophia.png",
-      "location": "Amadeus"
+      "location": "amadeus"
     },
     {
       "type": "startup-wekend",
@@ -303,7 +363,7 @@
       "date": "06 juin  à 12h",
       "desc": "D'un environnement pseudo automatisé vers un déploiement continu avec des outils comme Ansible, Gitlab, Docker, ...",
       "link": "http://www.telecom-valley.fr/06-juin-2018-commission-open-source/",
-      "pict": "telecomvalley-cos.png"
+      "pict": "tv-cos.png"
     },
     {
       "type": "dmca",
@@ -333,7 +393,7 @@
       "date": "4 septembre à 12h",
       "desc": "Cybersécurrité et PMEs, quelles solutions ?",
       "link": "http://www.telecom-valley.fr/4-septembre-2018-commission-securite-cloud/",
-      "pict": "telecomvalley-csc.png"
+      "pict": "tv-csc.png"
     },
     {
       "type": "hashicorp-meetup",
@@ -342,8 +402,7 @@
       "date": "6 septembre à 18h30",
       "desc": "Présentation de Apache Heron et déploiement avec Nomad par <b>Thomas Sarboni</b>. Terraform en action et cas d'usage concret OpenStack par <b>Romain Di Santo</b>",
       "link": "https://www.meetup.com/fr-FR/Sophia-Antipolis-HashiCorp-User-Group/events/251397471/",
-      "pict": "hashicorp.png",
-      "location": ""
+      "pict": "hashicorp.png"
     },
     {
       "type": "meetup",
@@ -357,13 +416,10 @@
     {
       "title": "Blockfest 1.5 by WHAT06",
       "ts": "20180922T090000",
-      "date": "22 septembre à 9h",
+      "date": "22 septembre à 9h au Village By CA",
       "desc": "Les collectifs <b>WHAT06</b> & <b>Le BlockFest</b> vous feront découvrir la technologie de la blockchain et comprendre son utilité dans divers domaines d’applications (Santé, ONG, RGPD…).",
       "link": "https://www.what06.com/",
-      "pict": "what06.png",
-      "orgs": "what06",
-      "sponsors": ["Village By CA", "Orange Labs"],
-      "location": "Village By CA"
+      "sponsors": [{"name": "what06"},{"name": "le-village-by-ca"}, {"name": "orange-labs"}]
     }
   ]
 }
